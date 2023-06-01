@@ -11,7 +11,7 @@ public class MainCorrida {
 		
 		c.desligar();
 		
-		c.frear(10);
+		c.frear(50);
 		
 		System.out.println(c.getVelocidadeAtual());
 		

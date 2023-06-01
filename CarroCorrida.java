@@ -77,7 +77,7 @@ public class CarroCorrida {
 
 	public void frear(float pct) {
 		if (isLigado() == true) {
-			setVelocidadeAtual(getVelocidadeAtual() - (getVelocidadeAtual() / pct));
+			setVelocidadeAtual(getVelocidadeAtual() - (getVelocidadeAtual() * (pct)/100));
 		} else {
 			System.out.println("O carro está desligado.");
 		}
